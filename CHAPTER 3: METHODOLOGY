@@ -1,0 +1,61 @@
+CHAPTER 3: METHODOLOGY
+3.1. Parts of Hardware:
+3.1.1. Arduino Microcontroller: The central processor that manages the functioning
+of the system.
+3.1.2. ADXL335 Accelerometer: X, Y, and Z axes of acceleration are measured.
+3.1.3. LCD Display: Shows alarms and seismic data in real time.
+3.1.4. Buzzer: Notifies users with an audible alarm.
+3.1.5. Power Supply: Gives the system power.
+3.2. Components of Software:
+3.2.1. Data Acquisition: Uses the Arduino's ADC to read analog signals from the
+accelerometer.
+3.2.2. Signal Processing: Extracts pertinent features and filters the raw data to
+eliminate noise.
+3.2.3. Threshold-Based Detection: To identify seismic events, the processed data is
+compared to a predetermined threshold.
+3.2.4. Alarm Triggering: This causes an alert to appear on the LCD and activates
+the buzzer.
+3.2.5. Acceleration data: is plotted on the LCD panel using real-time graphing.
+3.3. Design of the System:
+3.3.1. Sensor Interfacing: The analog input pins of the Arduino are linked to the
+ADXL335 device.
+3.3.2. Acquisition and Processing of Data: Analog signals are read by the Arduino,
+which then transforms them into digital values and filters the data to eliminate
+noise.
+3.3.3. Earthquake Detection: A predetermined threshold is compared to the
+produced data. An earthquake is identified if the acceleration is greater than
+the threshold.
+3.3.4. Alarm Triggering: An alert message is shown on the LCD and the buzzer is
+triggered.
+3.3.5. Real-time Graphing: A visual depiction of seismic activity is produced by
+plotting the acceleration data on the LCD screen.
+3.4. Analysis of Requirements
+3.4.1. Needs for Function: Real-time Acceleration Measurement: Determine
+acceleration precisely in three axes.
+3.4.1.2. Earthquake Detection: Use preset criteria to identify seismic events.
+3.5. Device Structure in General.
+3.5.1. Arduino microcontroller: Analyzes accelerometer data.Analog signals are
+transformed into digital data. Controls the display and sounds the alarm
+3.5.2. ADXL335 Accelerometer: Measures acceleration along X, Y, and Z axes.
+Identifies earthquakes, or ground vibrations.Analog signals proportional to
+acceleration are output.
+3.5.3. LCD Display: Shows seismic data in real time. Makes the seismic graph
+visible. It displays warnings and notifications.
+3.5.4. Buzzer: Alerts users of an earthquake by sounding an audible alarm.
+3.5.5. Power Supply: Provides energy to the whole system.
+3.6. How the System Works:
+3.6.1. Data Acquisition: The ADXL335 generates analog signals and monitors
+acceleration.
+3.6.2. Signal Conditioning: Analog signals are converted to digital by Arduino.
+3.6.3. Data Processing: To detect seismic events, data is processed and noise is
+filtered.
+3.6.4. Earthquake Detection: Identifies earthquakes by comparing data with a
+predetermined threshold.
+3.6.5. Alarm Triggering: This causes an alert to appear and activates the buzzer.
+3.6.6. Plotting acceleration data: on the LCD using real-time graphing.
+S.NO	Components Names	           Quantity
+1.	Microcontroller (Arduino UNO) 	1
+2.	ADXL335 Accelerometer          	1
+3.	Buzzer                        	1
+4.	16x2 LED Display              	1
+5.	LED                           	1
