@@ -1,0 +1,2 @@
+# Designing-Earthquake-Detector-Alarm-with-Seismic-Graph-Using-Acceleometer-and-Arduino-Mechanism
+Early warning systems are essential for reducing the impact of earthquakes, which pose a serious risk to property and human life. An ADXL335 accelerometer is used in this project's Arduino-based earthquake detection system to identify seismic activity, sound an alert, and graphically display real time seismic data on an LED screen.
