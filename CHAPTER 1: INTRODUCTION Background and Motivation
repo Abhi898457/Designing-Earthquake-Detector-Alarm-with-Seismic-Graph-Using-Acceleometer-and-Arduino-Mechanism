@@ -1,0 +1,29 @@
+CHAPTER 1: INTRODUCTION
+Background and Motivation
+Tectonic plate movements or human activity can generate earthquakes, which damage
+infrastructure and human lives. This project uses an Arduino and accelerometer to create an
+affordable earthquake detection system. It improves safety in resource-constrained,
+earthquake-prone environments like homes and schools by guaranteeing precise seismic
+activity detection, real-time monitoring, and early warnings through vibration sensors.
+Unpredictable natural disasters like earthquakes have the potential to seriously harm
+infrastructure and destroy lives. Early detection systems give people and communities vital
+time to take preventative action. This project uses an Arduino microcontroller and an
+ADXL335 accelerometer to create an earthquake detection system that is both economical
+and efficient.
+These analog signals are processed by a microcontroller, which then transforms them into
+digital data and examines it to find seismic The tiny, low-power, three-axis ADXL335
+accelerometer measures acceleration along the X, Y, and Z axes. The accelerometer detects
+variations in acceleration caused by ground vibrations during an earthquake.
+Unpredictable natural disasters like earthquakes can seriously harm
+The system's real-time seismic graph, which is shown on an LCD screen, is one of its best
+features. Users can evaluate the magnitude of the earthquake by using this graphic
+representation, which offers insights into the patterns and intensity of seismic activity.
+A threshold-based system is the foundation of the detecting process. An alarm is triggered by
+the system when acceleration beyond a predetermined threshold due to seismic activity.
+Depending on the needs of the user, the alarm might be as basic as a buzzer or as sophisticated
+as email or SMS alerts.
+This project offers a dependable and reasonably priced early earthquake detection method by
+fusing powerful hardware with effective software. Because of its adaptable design, it may be
+used for a variety of purposes, making it a useful tool for improving safety and readiness in
+seismically active places.
+4 
