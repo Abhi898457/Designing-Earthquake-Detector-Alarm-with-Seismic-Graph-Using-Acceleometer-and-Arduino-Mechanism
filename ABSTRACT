@@ -1,0 +1,19 @@
+ABSTRACT
+Early warning systems are essential for reducing the impact of earthquakes, which pose a
+serious risk to property and human life. An ADXL335 accelerometer is used in this project's
+Arduino-based earthquake detection system to identify seismic activity, sound an alert, and
+graphically display real time seismic data on an LED screen.
+The three axes (X, Y, and Z) are used by the ADXL335 accelerometer to measure acceleration.
+The analog impulses from the accelerometer are processed by the Arduino microcontroller and
+transformed into digital information. When the recorded acceleration exceeds a predetermined
+threshold, the system detects seismic events using threshold-based detection.
+The system's capacity to visualize seismic data in real time is one of its primary features.
+Acceleration numbers for each axis are graphically displayed on the LCD panel. This graphic
+provides information on the nature and magnitude of the seismic activity.
+The system is made to be flexible, inexpensive, and simple to use. To satisfy specific
+requirements, users can modify alarm settings and sensitivity limits. In earthquake-prone areas,
+the system seeks to improve safety and readiness by providing timely alerts and useful visual
+feedback.
+Keywords:
+early warning system, seismic graph, ADXL335 accelerometer, earthquake detection,
+Arduino, and disaster management
